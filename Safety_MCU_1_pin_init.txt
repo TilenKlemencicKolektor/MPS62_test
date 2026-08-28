@@ -1,0 +1,32 @@
+Safety_MCU_1 Pin Initialization (MCUXpresso Routing Details, 29 pins)
+Format: # | Peripheral | Signal | Dir | Pin | Label / Identifier | SafeMode | PullSel | PullEn | PadKeep | Invert | InBuf | OutBuf | InitVal | Touch | DriveStr
+
+15 | SIUL2   | GPIO,36  | Output | [15] PTB4  | O_D_STO_DIAGA_SMCU1   | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | Low  | n/a | Low
+14 | SIUL2   | GPIO,37  | Output | [14] PTB5  | O_D_STO1_CHP_SMCU1    | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | Low  | n/a | Low
+32 | SIUL2   | GPIO,45  | Output | [32] PTB13 | O_D_RST_SMCU2         | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | High | Low | n/a
+20 | SIUL2   | GPIO,80  | Output | [20] PTC16 | O_D_SBC_DIAGA_SMCU1   | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | Low  | n/a | Low
+13 | SIUL2   | GPIO,136 | Output | [13] PTE8  | O_D_STO_FAIL_TRIG     | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | Low  | n/a | Low
+38 | SIUL2   | GPIO,0   | Input  | [38] PTA0  | I_D_SBC_D_FAIL        | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | n/a
+11 | SIUL2   | GPIO,111 | Input  | [11] PTD15 | I_D_STO1_D_FAIL       | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | n/a | Low
+12 | SIUL2   | GPIO,137 | Input  | [12] PTE9  | I_D_STO2_D_FAIL       | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | n/a | Low
+19 | SIUL2   | GPIO,65  | Input  | [19] PTC1  | I_D_VM_RST_SMCU2      | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | n/a | Low
+34 | LPSPI_1 | SDO      | Output | [34] PTD2  | O_D_SPI1_SOUT_SMCU1   | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | Low
+43 | SIUL2   | GPIO,11  | Input  | [43] PTA11 | IO_SGPIO0_SMCU1       | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | Low
+42 | SIUL2   | GPIO,12  | Input  | [42] PTA12 | IO_SGPIO1_SMCU1       | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | Low
+41 | SIUL2   | GPIO,13  | Input  | [41] PTA13 | IO_SGPIO2_SMCU1       | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | Low
+2  | SIUL2   | GPIO,96  | Input  | [2] PTD0   | IO_SGPIO3_SMCU1       | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | Low
+1  | ADC_0   | IN,0     | Input  | [1] PTD1   | I_A_HALL_SMCU1        | Disable | Pulldown | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | n/a
+39 | LPUART_1| TX       | Output | [39] PTC7  | O_D_LPUART1_TX_SMCU1  | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | n/a | Low
+40 | LPUART_1| RX       | Input  | [40] PTC6  | I_D_LPUART1_RX_SMCU1  | Disable | Pullup   | Enabled  | Disabled | Don't invert | Enabled  | Disabled | n/a  | n/a | Low
+26 | LPSPI_0 | PCS0     | Output | [26] PTB0  | O_D_SPI0_CS_SMCU1     | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | Low
+28 | LPSPI_0 | SCK      | Output | [28] PTC8  | O_D_SPI0_SCK_SMCU1    | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | Low
+27 | LPSPI_0 | SDI      | Input  | [27] PTC9  | I_D_SPI0_SIN_SMCU1    | Disable | Pulldown | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | n/a
+36 | LPSPI_1 | SDI      | Input  | [36] PTA2  | I_D_SPI1_SIN_SMCU1    | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | Low | n/a
+35 | LPSPI_1 | SCK      | Output | [35] PTA3  | O_D_SPI1_SCK_SMCU1    | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | n/a
+33 | LPSPI_1 | PCS0     | Output | [33] PTD3  | O_D_SPI1_CS_SMCU1     | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | n/a
+24 | LPSPI_2 | SDI      | Input  | [24] PTB2  | I_D_SPI2_SIN_SMCU1    | Disable | Pullup   | Disabled | Disabled | Don't invert | Enabled  | Disabled | n/a  | n/a | Low
+22 | LPSPI_2 | PCS0     | Output | [22] PTC14 | O_D_SPI2_CS_SMCU1     | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | Low
+21 | LPSPI_2 | SCK      | Output | [21] PTC15 | O_D_SPI2_SCK_SMCU1    | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | n/a | Low
+37 | SIUL2   | GPIO,1   | Output | [37] PTA1  | O_D_STO1_CHP_SMCU1_2  | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | Low  | n/a | Low
+25 | LPSPI_0 | SDO      | Output | [25] PTB1  | O_D_SPI0_SOUT_SMCU1   | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | Low
+23 | LPSPI_2 | SDO      | Output | [23] PTB3  | O_D_SPI2_SOUT_SMCU1   | Disable | Pulldown | Disabled | Disabled | Don't invert | Disabled | Enabled  | n/a  | Low | n/a
